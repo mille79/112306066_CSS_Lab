@@ -1,0 +1,68 @@
+		body {
+	      font-family: Arial, sans-serif;
+	      background-color: lightyellow;
+	      color: purple;
+	    }
+
+	    h1 {
+	    	font-family: "Arial", sans-serif;
+	      color: darkred;
+	    }
+
+	    p {
+	      color: darkorange;
+	    }
+	    .navbar {
+      	position: absolute; /* Sets the ul to be positioned absolutely */
+	    top: 25em; /* Moves the ul 2em from the top */
+	    left: 0.5em; /* Moves the ul 3em from the left */
+	    width: 10em; /* Sets the width of the ul to 10em */
+	    /* Other styles */
+	    list-style-type: none; /* Remove default list styles */
+	    padding: 0;
+	    background-color: indianred;
+	    color: white;
+    	}
+
+    	.dropdown {
+  			position: relative;
+  			display: inline-block;
+  			color: white;
+		}
+
+		.dropdown-item{
+		  background-color: #3498db;
+		  color: white;
+		  padding: 12px;
+		  font-size: 16px;
+		  border: none;
+		  cursor: pointer;
+		}
+
+
+		.dropdown-content {
+		  position: absolute;
+		  top: 3em;
+		  background-color: white;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+    	/* Styles for all media */
+	    @media all {
+	      body {
+	        font-family: Arial, sans-serif;
+	      }
+	      /* Other styles for all media */
+	    }
+
+	    /* Styles for printing */
+	    @media print {
+	      body {
+	        color: black; /* Change text color for print */
+	        background-color: white; /* Change background color for print */
+	        font-size: 12pt; /* Adjust font size for print */
+	      }
+	      /* Other print-specific styles */
+	    }
